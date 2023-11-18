@@ -1,7 +1,7 @@
 all: boot.bin
 
 
-boot.bin:
+boot.bin: boot.s
 	nasm boot.s -f bin -o $@
 
 run:
