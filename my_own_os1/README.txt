@@ -21,7 +21,6 @@ Installera så att du kan kompilera assembler:
 
   pacman -S nasm
 
-
 Kompilera:
 
   make
@@ -29,3 +28,7 @@ Kompilera:
 Köra programmet genom att starta en virtuell maskin.
 
   make run
+
+För att editera kod i VSCode eller Codium så bör du lägga till:
+
+  GNU Assembler Language Support
