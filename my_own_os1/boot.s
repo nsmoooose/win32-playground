@@ -22,7 +22,7 @@ msg:
 								; these characters into the binary file.
 
 times 510 - ($ - $$) db 0       ; Repeat the "db 0" command until we have filled the binary
-                                ; file with 0 up to position 509. $ and $$ is evaluates to 
+                                ; file with 0 up to position 509. $ and $$ is evaluates to
 								; the current assembly position.
 dw 0xAA55                       ; Byte at 510 and 511 must be 0xAA55 in order for
                                 ; BIOS to be able to detect that this is a boot loader
